@@ -1,0 +1,46 @@
+/* --- Google Fonts --- */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Montserrat:wght@400;700");
+
+@import url("components/container.css");
+@import url("components/notifications.css");
+@import url("components/bell.css");
+@import url("components/triangle.css");
+
+/* --- Fonts --- */
+body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  padding-bottom: 200px;
+  margin: 0;
+  min-height: 100vh;
+  /* background: #F4F4F4; */
+  background: rgb(205,241,250);
+  background: linear-gradient(330deg, rgba(173, 183, 249, 1) 0%, rgba(205, 241, 250, 1) 100%);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", "sans-serif";
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
