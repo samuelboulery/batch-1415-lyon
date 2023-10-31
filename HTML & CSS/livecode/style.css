@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(220, 220, 220);
+}
+
+a {
+  text-decoration: none;
+  color: #0C356A;
+  font-weight: 600;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card-dribbble {
+  width: 400px;
+}
+
+.card-header {
+  background-color: #FFF;
+  padding: 8px;
+  position: relative;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-icons {
+  color: rgb(125, 125, 125);
+  display: flex;
+  justify-content: end;
+  gap: 16px;
+}
+
+.card-icon {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.avatar-rounded {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding-top: 16px;
+}
+
+.btn-white {
+  position: absolute;
+  opacity: 0;
+  /* display: none; */
+  top: 16px;
+  left: 16px;
+  background-color: #FFF;
+  color: rgb(50, 50, 50);
+  border-radius: 8px;
+  padding: 8px 24px;
+  transition: 0.5s;
+}
+
+.card-header:hover .btn-white {
+  opacity: 1;
+  /* display: block; */
+}
+
+.cards-dribbble {
+  display: flex;
+  gap: 16px;
+}
