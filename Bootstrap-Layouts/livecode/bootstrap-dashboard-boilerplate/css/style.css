@@ -1,0 +1,12 @@
+.main-content {
+  /* width: calc(100vw - 280px);
+  display: flex;
+  flex-direction: column;
+  justify-content: end; */
+  padding-left: 310px;
+  padding-right: 24px;
+}
+
+.my-sidebar {
+  z-index: -1;
+}
